@@ -1,0 +1,7 @@
+awesome-git
+picom
+nitrogen
+catppuccin-gtk-theme-mocha
+polkit-kde-agent
+lxappearance
+breeze-icons
