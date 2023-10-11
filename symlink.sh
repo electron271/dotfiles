@@ -9,11 +9,11 @@ if [[ $response =~ ^([nN][oO]|[nN])$ ]]; then
     exit 1
 fi
 
-# Create symlinks
+# Create symlinks (reminder for myself to not create a recursive symlink)
 echo "Symlinking awesome config..."
-ln -sf "$HOME/dotfiles/awesome" "$HOME/.config/awesome"
+ln -sfv "$HOME/dotfiles/awesome" "$HOME/.config/awesome"
 echo "Symlinking picom config..."
-ln -sf "$HOME/dotfiles/picom" "$HOME/.config/picom"
+ln -sfv "$HOME/dotfiles/picom" "$HOME/.config/picom"
 
 echo "Done!"
 echo "More will be added soon..."
