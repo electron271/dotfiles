@@ -13,7 +13,7 @@ fi
 echo "Symlinking awesome config..."
 ln -sf "$HOME/dotfiles/awesome" "$HOME/.config/awesome"
 echo "Symlinking picom config..."
-ln -sf "$HOME/dotfiles/picom.conf" "$HOME/.config/picom.conf"
+ln -sf "$HOME/dotfiles/picom" "$HOME/.config/picom"
 
 echo "Done!"
 echo "More will be added soon..."
